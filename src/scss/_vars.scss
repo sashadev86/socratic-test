@@ -1,0 +1,28 @@
+// если вы хотите использовать sass-переменные - удалите root
+:root {
+  // base
+  --font-family: "Inter", sans-serif;
+  --font-family-secondary: "RobotoSlab", sans-serif;
+  --content-width: #{rem(1610)};
+  --container-offset: #{rem(152)};
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --colors-white: #ffffff;
+  --black---text-primary: #343434;
+  --gray---text-tertiary: #9A9A9A;
+  --light-gray-lines: #EAEAEA;
+  --light-gray-bg: #EEEFF0;
+  --dark-blue: #3CA9F0;
+  --blue: #5CBEFE;
+  --colors-error: #FF395D;
+
+  // border-radius
+  --radius-10: #{rem(10)};
+  --radius-12: #{rem(12)};
+  --radius-100: #{rem(100)};
+
+  // animation
+  --animation-timing: .3s;
+  --animation-transition: ease-in-out;
+}

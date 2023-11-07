@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/regular/Inter-Regular.woff2') format('woff2'),
+    url('../fonts/Inter/regular/Inter-Regular.woff') format('woff'),
+    url('../fonts/Inter/regular/Inter-Regular.ttf') format('ttf'),
+    url('../fonts/Inter/regular/Inter-Regular.eot') format('eot');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/medium/Inter-Medium.woff2') format('woff2'),
+    url('../fonts/Inter/medium/Inter-Medium.woff') format('woff'),
+    url('../fonts/Inter/medium/Inter-Medium.ttf') format('ttf'),
+    url('../fonts/Inter/medium/Inter-Medium.eot') format('eot');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('../fonts/RobotoSlab/bold/RobotoSlab-Bold.woff2') format('woff2'),
+    url('../fonts/RobotoSlab/bold/RobotoSlab-Bold.woff') format('woff'),
+    url('../fonts/RobotoSlab/bold/RobotoSlab-Bold.ttf') format('ttf'),
+    url('../fonts/RobotoSlab/bold/RobotoSlab-Bold.eot') format('eot');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('../fonts/RobotoSlab/extrabold/RobotoSlab-ExtraBold.woff2') format('woff2'),
+    url('../fonts/RobotoSlab/extrabold/RobotoSlab-ExtraBold.woff') format('woff'),
+    url('../fonts/RobotoSlab/extrabold/RobotoSlab-ExtraBold.ttf') format('ttf'),
+    url('../fonts/RobotoSlab/extrabold/RobotoSlab-ExtraBold.eot') format('eot');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}

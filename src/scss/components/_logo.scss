@@ -1,0 +1,34 @@
+.logo {
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: rem(9.35);
+
+    &-image {
+      width: rem(43.48);
+      height: rem(40);
+    }
+
+    &-description {
+      font-family: var(--font-family-secondary);
+      font-size: rem(28.039);
+      font-weight: 800;
+      color: var(--black---text-primary);
+    }
+
+    @include mediaBigDesktop {
+      & {
+        gap: big(9.35);
+
+        &-image {
+          width: big(43.48);
+          height: big(40);
+        }
+
+        &-description {
+          font-size: big(28.039);
+        }
+      }
+    }
+  }
+}

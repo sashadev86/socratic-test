@@ -1,0 +1,58 @@
+.collecting {
+  padding-bottom: rem(100);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    gap: rem(20);
+
+    @include big-desktop {
+      padding: 0 rem(15);
+    }
+
+    @include big-tablet {
+      flex-direction: column;
+    }
+  }
+
+  &__illustration {
+
+    & picture {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+
+    &-image {
+      width: rem(658);
+      height: rem(658);
+
+      @include big-tablet {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  &__block {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: rem(60);
+    width: rem(800);
+
+    @include big-tablet {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    padding-top: rem(39);
+
+    font-family: var(--font-family-secondary);
+    font-size: rem(48);
+    font-weight: 700;
+    line-height: 110%;
+    color: var(--black---text-primary);
+  }
+}
