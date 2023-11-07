@@ -1,0 +1,10 @@
+.header {
+  padding: rem(60) 0;
+
+  &__container {
+     @include big-desktop {
+      padding: 0 rem(15);
+    }
+  }
+}
+
