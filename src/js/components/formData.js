@@ -1,25 +1,28 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Выберите элемент формы
   const form = document.querySelector(".form");
+  const clearInputIcon = document.getElementById("clearInput");
+  const characterCountElement = document.querySelector(".character-count");
 
-  // Добавьте обработчик события для отправки формы
-  form.addEventListener("submit", function (event) {
-    event.preventDefault(); // Предотвратите стандартное действие отправки формы
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
 
-    // Соберите данные из формы
+    // Собираем данные из формы
     const formData = {
       lessonTopic: document.querySelector('input[name="lessonTopic"]').value,
       classNumber: document.querySelector('select[name="classNumber"]').value,
       purpose: document.querySelector('textarea[name="purpose"]').value,
     };
 
-    // Выведите данные из формы в консоль в виде объекта
     console.log(formData);
 
-    // Очистите значения полей после отправки
-    document.querySelector('input[name="lessonTopic"]').value = "";
-    document.querySelector('select[name="classNumber"]').value = "1"; // Установите значение по умолчанию
-    document.querySelector('textarea[name="purpose"]').value = "";
-  });
-})
+    const classSelect = window.choicesSelect;
+    classSelect.setChoiceByValue("1");
 
+    // Очистка значений полей после отправки
+    document.querySelector('input[name="lessonTopic"]').value = "";
+    document.querySelector('textarea[name="purpose"]').value = "";
+
+    clearInputIcon.style.display = "none";
+    characterCountElement.textContent = "0 / 200";
+  });
+});
