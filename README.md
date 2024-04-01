@@ -3,7 +3,7 @@
 - Вся логика написана на чистом JavaScript
 - Все JavaScript файлы разбиты на компоненты и лежат в папке src/js/components
 - Данные из формы выведены в консоль
-- Ссылка на деплой проекта на github: [Сократик gh-pages](https://banditos86.github.io/socratic-test/ "Сократик")
+- Ссылка на деплой проекта на github: [Сократик gh-pages](https://sashadev86.github.io/socratic-test/ "Сократик")
 
 
 ## Стек
